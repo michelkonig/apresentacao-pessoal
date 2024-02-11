@@ -1,43 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Michel Konig - Desenvolvedor FullStack</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <img class="profile-img" src="img01.jpg"/>
-            <h1>Michel Konig</h1>
-            <p>Desenvolvedor FullStack</p>
+            <table border="0">
+                <tr>
+                <!-- <figure class="profile-img"> -->
+                    <td><img class="profile-img" src="img01.jpg"></td>
+                <!-- </figure> -->
+                    <td>
+                        <h1>Michel Konig</h1>
+                        <p>Product Design e Desenvolvedor</p>
+                        <a href="https://www.linkedin.com/in/michelkonig/" target="_blank">Linkedin</a>
+                        <a href="https://www.behance.net/michelkonig" target="_blank">Behance</a>
+                    </td>
+                </tr>
+            </table>
         </div>
-    </header>
+   </header>
 
     <section id="about">
         <div class="container">
-            <h2>sobre mim:</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+            <p class="title">SOBRE MIM</p>
+            <p>Possuo formação técnica na área de <strong>UX/UI</strong>, e atualmente venho me dedicando constantemente na busca de conhecimento e formação na área de programação estando sempre disposto a correr atrás do necessário.</p>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
-            <h2>minhas habilidades:</h2>
-            <ul>
-            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a></li>
-            <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></li>
-            <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JAVASCRIPT</a></li>
-            <li>GITHUB</li>
-           </ul>
+            <p class="title">HABILIDADES</p>
+            <table class="table table-borderless">
+                
+            <tr>
+                <td><span class="estilo">Em design:</span></td>
+                <td><span class="estilo">Em programação:</span></td>
+
+             <tr>
+                <td>Métodologia UX (double diamont)</td> 
+                <td><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a></li></td>
+
+            </tr>
+
+            <tr>
+                <td>Figma</td>
+                <td><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></li></td>
+            </tr>
+
+            <tr>
+                <td>Procreate</td>
+                <td><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JAVASCRIPT</a></li></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>GITHUB</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <p class="title">EXPERIÊNCIAS</p>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable">Abril 2023 (Atual)</td>
+                    <td class="border-inline-start"> Análista de operações I, <span class="estilo"> Grupo QuintoAndar</span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> Maio 2021 a Setembro 2022 </td>
+                    <td class="border-inline-start"> Analista de Engenharia de produto e processos jr., <span class="estilo">Karsten S/A </span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> Março 2019 a Fevereiro 2021 </td>
+                    <td class="border-inline-start"> Mestrando em Engenharia Química, <span class="estilo">FURB e FAPESC</span> </td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> Agosto 2015 a Julho 2018 </td>
+                    <td class="border-inline-start"> Pesquisador Científico, <span class="estilo">FURB e FAPESC</span></td>
+                </tr>
+            </table>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="formation">
         <div class="container">
-            <h2>contato:</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+            <p class="title">FORMAÇÃO TÉCNICA</p>
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable">2024</td>
+                    <td class="border-inline-start"> Desenvolverdor C#, Curso 280h, <span class="estilo">Entra21</span></td>
+                </tr>
+            </table>
+
+             <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> 2023 </td>
+                    <td class="border-inline-start"> UX/UI, Curso de 480h, <span class="estilo">ENTRA21</span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> 2019 a 2020</td>
+                    <td class="border-inline-start"> Mestrado em Engenharia Química, Lato Sensu, <span class="estilo">FURB</span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> 2014 a 2019</td>
+                    <td class="border-inline-start"> Engenharia Química, Bacharel, <span class="estilo">FURB</span></td>
+                </tr>
+            </table>
+
+            <p class="title">FORMAÇÃO COMPLEMENTAR</p>
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable">2023</td>
+                    <td class="border-inline-start">Web Design: Construa Sites com PHP, HTML, CSS e JavaScript, Curso de 13h, <span class="estilo">UDEMY</span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable"> 2022 </td>
+                    <td class="border-inline-start">Design gráfico, Curso de 140h, <span class="estilo">FIAP</span></td>
+                </tr>
+            </table>
+
+            <table class="table table-borderless">
+                <tr>
+                    <td class="tituletable">2022</td>
+                    <td class="border-inline-start">User experience, Curso de 60h, <span class="estilo">FIAP</span></td>
+                </tr>
+            </table>
         </div>
     </section>
 
